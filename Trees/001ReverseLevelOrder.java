@@ -33,3 +33,5 @@ class Solution {
         ans.get(lvl).add(root.val);
     }
 }
+
+// we can also solve using combination of stack for storing the answer of level and queue for level order traversal.
